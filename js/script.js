@@ -65,7 +65,7 @@ const getYoutube = (artistId, artistName) => {
 
     const search = value => {
 
-        const url = `http://musicdemons.com/api/v1/artist/autocomplete`;
+        const url = `https://musicdemons.com/api/v1/artist/autocomplete`;
         const options = {
             method: 'POST',
             headers: {
