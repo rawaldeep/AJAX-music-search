@@ -1,0 +1,70 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 100%;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #363640;
+}
+.content{
+    width: 100%;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+input[type="search"]{
+    width: 28rem;
+    height: 5.6rem;
+    padding: 0 1.2rem;
+    outline: none;
+    border: none;
+    border-radius: 5px 5px 0 0;
+    background-color: rgba(255, 255, 255, 0.04);
+    font-size: 2rem;
+    text-align: center;
+    color: #4CAF50;
+}
+.songs li{
+    list-style: none;
+    width: 30%;
+    margin: 1%;
+    float: left;
+}
+h3{
+width: 28rem;
+margin: 2em auto;
+transition: all 0s ease;
+font-size: 2em;
+color: #fff;
+}
+.results{
+    padding: 0;
+    margin: 0;
+}
+.results li{
+    padding: 0 1.2rem;
+    outline: none;
+    border-bottom: #4CAF50 1px solid;
+    font-size: 1.9rem;
+    text-align: center;
+    color: #fff;
+    list-style: none;
+}
+.videos{
+    width: 100%;
+}
